@@ -1,0 +1,709 @@
+.MainBox {
+    font-family: cursive;
+    position: relative;
+    /* min-width: 100vw; */
+    /* min-height: 100vh; */
+    /* border: 1px solid red; */
+}
+
+#content-wrap {
+    padding-bottom: 1cm;
+    margin-bottom: 1cm;
+    /* border: 1px solid grey; */
+}
+
+.MainContent {
+    
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2cm;
+}
+
+.Title {
+    /* border: 1px solid grey; */
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.8cm;
+}
+
+
+.IntroduceBox .MainTextTitle {
+    /* border: 1px dashed goldenrod; */
+    text-align: center;
+    font-size: 1cm ;
+
+}
+
+.IntroduceBox .MainText {
+    /* border: 1px dashed rgb(170, 134, 42); */
+    font-size: 0.6cm;
+    text-align: justify;
+}
+
+.MainPicture {
+
+    /* border: 1px solid purple; */
+    margin-left: 2cm;
+    /* width: 100% */
+    /* max-width: 15cm; */
+}
+
+.Footer{
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    height: 4cm;
+    background: black;
+    text-align: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.image {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    max-width: 15cm;
+    font-size: 0.5cm;
+}
+
+
+/* Ear descriptions */
+
+.ear {
+    position: absolute;
+    left: 4.8cm;
+    top: 1.1cm;
+}
+
+.earBox {
+    display: none;
+    position: absolute;
+    left: 4.8cm;
+    top:0;
+    /* border: 1px solid red;  */
+    width: 5cm; 
+    height: 3cm;
+    transition-duration: 10s;
+}
+
+.earArrow {
+    position: absolute;
+    border: 3px solid black;
+    width: 4cm;
+    height: 10cm;
+    border-radius: 4cm 3cm 0 0;
+    border-color: black transparent transparent transparent;
+    left: -0.3cm;
+    top: 0.3cm;
+}
+
+.earArrowLines {
+    position: absolute;
+    /* border: 3px solid black; */
+    top: 0.5cm;
+    left: 0.5cm;
+}
+
+.earArrowLines:before, .earArrowLines:after {
+    height: 0.3cm;
+    position: absolute;
+    content: "";
+    border: 1px solid black;
+}
+
+.earArrowLines:before {
+    top: -0.2cm;
+    left: 0.2cm;
+    transform: rotate(25deg);
+}
+
+.earArrowLines:after {
+    top: -0.1cm;
+    left: 0.3cm;
+    transform: rotate(-105deg)
+}
+
+.earText {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 1cm;
+    left: 3cm;
+}
+
+
+/* Eye descritpirons */
+
+.eye {
+    position: absolute;
+    left: 3.2cm;
+    top: 4.1cm;
+}
+
+.eyeBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 0;
+    top:  1cm;
+    width: 3.7cm; 
+    height: 3.2cm;
+}
+
+.eyeArrow {
+    position: absolute;
+    border: 3px solid black;
+    height: 5cm;
+    width: 3.5cm;
+    top: -1.9cm;
+    right: 0.2cm;
+    border-radius: 0 0 0 3cm ;
+    border-color: transparent transparent black transparent;
+}
+
+.eyeArrowLines {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.eyeArrowLines:before, .eyeArrowLines:after {
+    height: 0.3cm;
+    border: 1px solid black;
+    position: absolute;
+    content: "";
+}
+
+.eyeArrowLines:before {
+    top: -0.05cm;
+    right: 0.3cm;
+    transform: rotate(60deg)
+}
+
+.eyeArrowLines:after {
+    top: -0.2cm;
+    right: 0.3cm;
+    transform: rotate(-65deg)
+}
+
+.eyeText {
+    position: absolute;
+    width: 1cm;
+    height: 1cm;
+    /* border: 1px solid red; */
+    top: 1.5cm;
+
+}
+
+.nose {
+    position: absolute;
+    left: 5.1cm;
+    top: 4.2cm;
+}
+
+.noseBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 5.3cm;
+    top:  2.5cm;
+    width: 4cm; 
+    height: 2.5cm;
+}
+
+.noseArrow {
+    position: absolute;
+    width: 2.5cm;
+    height: 1.8cm;
+    border: 3px solid black;
+    border-radius: 0 0 80% 0;
+    border-color: transparent transparent black transparent;
+}
+
+.noseArrowLines {
+    position: absolute;
+    /* border: 1px solid red;  */
+    top: 1.8cm;
+}
+
+.noseArrowLines:before, .noseArrowLines:after {
+    height: 0.2cm;
+    border: 1px solid black;
+    position: absolute;
+    content: "";
+}
+
+.noseArrowLines:before {
+    transform: rotate(-60deg);
+    left: 0.2cm;
+    top: -1px;
+}
+
+.noseArrowLines:after {
+    top: -0.2cm;
+    left:0.2cm;
+    transform: rotate(60deg);
+}
+
+.noseText {
+    position: absolute;
+    left: 2.2cm;
+    top: 0.8cm;
+    /* border: 1px solid red; */
+}
+
+.mouse {
+    position: absolute;
+    left: 4.6cm;
+    top:  5cm;
+}
+
+.mouseBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 0;
+    top:  5cm;
+    width: 5cm; 
+    height: 2cm;
+}
+
+.mouseArrow {
+    position: absolute;
+    border: 3px solid black;
+    height: 5cm;
+    width: 5cm;
+    top: -4cm;
+    left: 0.3cm;
+    border-radius: 0 0 3cm 3cm ;
+    border-color: transparent transparent black transparent;
+}
+
+.mouseArrowLines {
+    position: absolute;
+    /* border: 1px solid red; */
+    /* bottom: 0; */
+    left: 4.3cm;
+    top: 4cm;
+}
+
+.mouseArrowLines:before, .mouseArrowLines:after {
+    position: absolute;
+    height: 0.3cm;
+    border: 1px solid black;
+    content: "";
+    top: 0.3cm;
+
+}
+
+.mouseArrowLines:before {
+    top: 11px;
+    right: 1px;
+    transform: rotate(27deg)
+}
+
+.mouseArrowLines:after {
+    right: 3px;
+    top: 5px;
+    transform: rotate(75deg)
+}
+
+.mouseText {
+    position: absolute;
+    top: -0.5cm;
+}
+
+.chest {
+    position: absolute;
+    left: 5cm;
+    top: 6cm;
+}
+
+.chestBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 2.5cm;
+    top:  6cm;
+    width: 3cm; 
+    height: 2.5cm;
+}
+
+.chestArrow {
+    position: absolute;
+    width: 2cm;
+    height: 4cm;
+    border: 3px solid black;
+    left: 1cm;
+    border-radius: 0 0 5cm 0.5cm;
+    border-color: transparent transparent black transparent ;
+    top: -3.3cm;
+}
+
+.chestArrowLines {
+    position: absolute;
+    border: 3px solid black;
+    top: 3.3cm;
+    left: 1.5cm;
+
+}
+
+.chestArrowLines:before, .chestArrowLines:after {
+    height: 0.3cm;
+    position: absolute;
+    content: "";
+    border: 1px solid black;
+}
+
+.chestArrowLines:before {
+    top: 5px;
+    right: 4px;
+    transform: rotate(20deg)
+}
+
+.chestArrowLines:after {
+    top: -2px;
+    right: 7px;
+    transform: rotate(100deg)
+}
+
+.chestText {
+    position: absolute;
+    top: 0.1cm;
+}
+
+.tail {
+    position: absolute;
+    left: 4.1cm;
+    top: 11.5cm;
+}
+
+.tailBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 0.5cm;
+    top:  11.4cm;
+    width: 4cm; 
+    height: 2cm;
+}
+
+.tailArrow {
+    position: absolute;
+    border: 3px solid black;
+    height: 5cm;
+    width: 4cm;
+    top: -4.2cm;
+    left: 0.3cm;
+    border-radius: 0 0 3cm 3cm ;
+    border-color: transparent transparent black transparent;
+}
+
+.tailArrowLines {
+    position: absolute;
+    
+    top: 4.5cm;
+    left: 3.4cm;
+}
+
+.tailArrowLines:before, .tailArrowLines:after {
+    position: absolute;
+    content: "";
+    height: 0.3cm;
+    border: 1px solid black;
+}
+
+.tailArrowLines:before {
+    top: -1px;
+    left: -3px;
+    transform: rotate(20deg)
+}
+
+.tailArrowLines:after {
+    left: -7px;
+    top: -6px;
+    transform: rotate(90deg)
+}
+
+.tailText {
+    position: absolute;
+    top: -0.3cm;
+}
+
+.neck {
+    position: absolute;
+    left: 6.8cm;
+    top: 4.3cm;
+}
+
+.neckBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 7cm;
+    top:  3cm;
+    width: 5cm; 
+    height: 2.5cm;
+}
+
+.neckArrow {
+    position: absolute;
+    border: 3px solid black;
+    height: 5cm;
+    width: 6cm;
+    top: -3cm;
+    left: -0.4cm;
+    border-radius: 0 0 5cm 2cm ;
+    border-color: transparent transparent black transparent; 
+}
+
+.neckArrowLines {
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 4.6cm;
+    left: 0.3cm;
+}
+
+.neckArrowLines:before, .neckArrowLines:after {
+    position: absolute;
+    content: "";
+    border: 1px solid black;
+    height: 0.3cm;
+    left: 0.1cm;
+}
+
+.neckArrowLines:before {
+    top: -1px;
+    left: 0.2cm;
+    transform: rotate(-30deg)
+}
+
+.neckArrowLines:after {
+    top:-9px;
+    left: 0.3cm;
+    transform: rotate(-100deg)
+}
+
+.neckText {
+    position: absolute;
+    left: 4cm;
+}
+
+.whisker {
+    position: absolute;
+    left: 2cm;
+    top: 6.8cm;
+}
+
+.whiskerBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 0;
+    top:  7cm;
+    width: 2.5cm; 
+    height: 3cm;
+}
+
+.whiskerArrow {
+    position: absolute;
+    width: 1cm;
+    height: 1cm;
+    left: 1cm;
+    border: 3px solid black;
+    border-radius: 2cm 0 0 0; 
+    border-color: black transparent transparent transparent;
+}
+
+.whiskerArrowLines {
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 1cm;
+}
+
+.whiskerArrowLines:before, .whiskerArrowLines:after {
+    position: absolute;
+    content: "";
+    height: 0.3cm;
+    border: 1px solid black;
+}
+
+.whiskerArrowLines:before {
+    top: -2px;
+    right: 0.2cm;
+    transform: rotate(45deg)
+}
+
+.whiskerArrowLines:after {
+    top: -10px;
+    left: -0.3cm;
+    transform: rotate(100deg)
+}
+
+.whiskerText {
+    position: absolute;
+    top: 1cm;
+}
+
+
+.hindpaw {
+    position: absolute;
+    left: 11.7cm;
+    top: 11cm;
+}
+
+.hindpawBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 12cm;
+    top:  9cm;
+    width: 2.7cm; 
+    height: 3cm;
+}
+
+.hindpawArrow {
+    position: absolute;
+    width: 1.5cm;
+    height: 2cm;
+    border-radius: 0 0 1cm 0;
+    border: 3px solid black;
+    border-color: transparent transparent black transparent; 
+}
+
+.hindpawArrowLines {
+    position: absolute;
+    top: 2cm;
+}
+
+.hindpawArrowLines:before, .hindpawArrowLines:after {
+    position: absolute;
+    content: "";
+    height: 0.3cm;
+    border: 1px solid black;
+}
+
+.hindpawArrowLines:before {
+    top: -1px;
+    left: 0.1cm;
+    transform: rotate(-70deg)
+}
+
+.hindpawArrowLines:after {
+    left: 3px;
+    top: -9px;
+    transform: rotate(-110deg);
+}
+
+.hindpawText {
+    position: absolute;
+    left: 0.8cm;
+    top: 1cm;
+}
+
+.forepaw {
+    position: absolute;
+    left: 7cm;
+    top: 9.7cm;
+}
+
+.forepawBox {
+    position: absolute;
+    display: none;
+    /* border: 1px solid red; */
+    left: 3.5cm;
+    top:  8cm;
+    width: 3.5cm; 
+    height: 2cm;
+}
+
+.forepawArrow {
+    position: absolute;
+    border: 3px solid black;
+    height: 5cm;
+    width: 3cm;
+    top: -3.3cm;
+    left: 0.4cm;
+    border-radius: 0 0 0 3cm ;
+    border-color: transparent transparent black transparent;
+}
+
+.forepawArrowLines {
+    position: absolute;
+    top: 5cm;
+    left: 3cm;
+    /* border: 3px solid red; */
+}
+
+.forepawArrowLines:before, .forepawArrowLines:after {
+    position: absolute;
+    content: "";
+    height: 0.3cm;
+    border: 1px solid black;
+}
+
+.forepawArrowLines:before {
+    left: -0.2cm;
+    top: -2px;
+    transform: rotate(65deg)
+}
+
+.forepawArrowLines:after {
+    top: -8px;
+    left: -7px;
+    transform: rotate(115deg);
+}
+
+button {
+    background: white;
+    border-radius: 50%;
+    border-color: grey;
+    width: 0.4cm;
+    height: 0.4cm;
+
+}
+
+/* .arrow {
+    border: 1px solid red;
+    position: relative;
+    width: 100px;
+}
+
+.arrow .curve {
+	border: 2px solid #BE5F4B; */
+    /* C: border-color: [top | right | bottom | left] */
+	/* border-color: transparent transparent transparent #BE5F4B;
+	height: 360px;
+	width: 1200px; */
+    /* C: border-radius: [top-left corner | top-right corner | bottom-right corner | bottom-left corner ] */
+	/* border-radius: 5cm 0 0 4cm;
+}
+
+.arrow .point {
+	position: absolute;
+	left: 40px;
+	top: 315px;
+    color: black;
+    border: 2px solid black;
+}
+
+.arrow .point:before, .arrow .point:after {
+	border: 1px solid #BE5F4B;
+	height: 25px;
+	content: "";
+	position: absolute;
+}
+
+.arrow .point:before {
+	top: -14px;
+	left: -11px;
+	transform:rotate(-74deg);
+}
+
+.arrow .point:after {
+  top: -22px;
+	left: 5px;
+	transform:rotate(12deg);
+} */
+

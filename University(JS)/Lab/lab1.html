@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="lab.css" rel="stylesheet">
+        <script defer src="lab1.js"></script>
+    </head>
+    <body>
+        <h1>Лабораторная работа 1</h1>
+            <div>
+                <p>
+                    <h3>Задание 1</h3> Написать скрипт, который выделяет массив из 20 целых чисел и инициализирует 
+                    каждый элемент по его индексу, умноженному на 5. <br>
+                    Выведите полученный массив на консоль.
+                </p>
+            </div>
+            <div class="test">
+                <pre id="massive"></pre>
+                <button onclick="mass5()" class="t">
+                    Получить массив
+                </button>
+            </div>
+            <div class="l2">
+                <p> <h3>Задание 2</h3>Напишите скрипт, который сравнивает два char массива лексикографически 
+                    (буква за буквой).</p>
+            </div>
+            <div class="l2">
+                <label> Строка 1: 
+                    <input type="text" id="string1">
+                </label>
+                <br/>
+                <label> Строка 2: 
+                    <input type="text" id="string2">
+                </label>
+                <div>
+                    <pre id="comparing"></pre>
+                    <button onclick="compare()">
+                         Сравнить 
+                    </button>
+                    
+                </div>
+            </div>
+            <div>
+                <p><h3>Задание 3</h3> Напишите скрипт, который найдет максимальную последовательность равных 
+                    элементов в массиве.<br />
+                    Например,	2, 1, 1, 2, 3, 3, 2, 2, 2, 1 -> 2, 2, 2</p>
+            </div>
+            <div>
+                <label> Последовательность :
+                    <input type="text" id="sequence">
+                </label>
+                <div>
+                    <pre id="find"></pre>
+                    <button onclick="maxSeq()">
+                         Найти 
+                    </button>
+                    
+                </div>
+            </div>
+            <div>
+                <p>
+                    <h3>Задание 4</h3>Напишите скрипт, который находит максимальную возрастающую 
+                    последовательность в массиве.<br/>
+                    Например, 	3, 2, 3, 4, 2, 2, 4 -> 2, 3, 4.
+                </p>
+            </div>
+            <div>
+                <label> Последовательность:
+                    <input type="text" id="sequence2">
+                </label>
+            </div>
+            <div>
+                <pre id="find2"></pre>
+                <button onclick="maxAscSeq()">
+                     Найти 
+                </button>
+                
+            </div>
+            <div>
+                <p>
+                    <h3>Задание 5</h3>  Отсортировать массив – значит расположить его элементы в порядке возрастания. <br>
+                    Напишите сценарий для сортировки массива.<br>
+                    Используйте selection sort алгоритм: найти наименьший элемент, переместить его на первое место,<br> 
+                    найти наименьшее из остальных, переместите его на вторую позицию и т. д. <br>
+                </p>
+            </div>
+            <div>
+                <label>Массив
+                    <input type="text", id="sMassive">
+                </label>
+            </div>
+            <div>
+                <pre id="sort"></pre>
+                <button onclick="sortMassive()">
+                     Отсортировать 
+                </button>
+                
+            </div>
+            <div>
+                <p>
+                    <h3>Задание 6.</h3> Напишите программу, которая найдет наиболее частое число в массиве.<br/>
+                    Например, 	4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3 -> 4 (5 раз)
+                </p>
+            </div>
+            <div>
+                <label>Массив: 
+                    <input type="text", id="tMassive">
+                </label>
+            </div>
+            <div>
+                <pre id="find3"></pre>
+                <button onclick="maxNumber()">
+                     Найти 
+                </button>
+               
+            </div>
+        </div>
+    </body>
+</html>

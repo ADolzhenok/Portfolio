@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="lab4and5.css" rel="stylesheet">
+        <script defer src="lab4and5.js"></script>
+    </head>
+    <body>
+        <h1>Лабораторная работа 4</h1>
+        <div>
+            <p><h3>Задание 1</h3> Напишите сценарий, который выбирает все div, которые непосредственно внутри других элементов div<br>
+                * Создайте функцию с помощью querySelectorAll()<br>
+                * Создайте функцию с помощью getElementsByTagName()
+            </p>
+        </div>
+        <button onclick="queryS()">Выбрать с querySelectorAll</button>
+        <button onclick="elementByTag()">Выбрать с getElementsByTagName</button>
+        <div class="outer">
+            Nested div
+            <div class="inner">Inner div</div>
+            <div class="inner">Inner div</div>
+        </div>
+        <div class="outer">Lonely div
+            <div class="inner">Inner div</div>
+        </div>
+        <div>
+            <p><h3>Задание 2</h3> Создайте функцию, которая получает значение input и выводит его значение на консоль.
+            </p>
+        </div>
+        <div>
+            <input type="text" id="text" class="input">
+            <button onclick="toConsole()">Поместить в консоль</button>
+        </div>
+        <div>
+            <h3>Задание 3</h3> Создайте функцию, которая получает значение input и задает фон body этим значением.
+        </div>
+        <div>
+            <input type="color" id="color">
+            <button onclick="changeColor()">Поменять цвет</button>
+        </div>
+        <h1>Лабораторная работа 5</h1>
+        <div>
+            <p><h3>Задание 1</h3> Напишите функцию, которая проверяет, содержит ли данный объект данное свойство.
+            </p>
+        </div>
+        <div>
+            <input type="text" id="text2" class="input">
+            <pre id="property"></pre>
+            <button onclick="property()">Проверить</button>
+        </div>
+        <div>
+            <p><h3>Задание 2</h3> Напишите функцию, которая найдет самого молодого человека в заданном массиве лиц<br>
+                и выведет его / ее полное имя. У каждого человека есть свойства `firstName`, `lastName` and `age`:
+            </p>
+        </div>
+        <div>
+            <pre id="find"></pre>
+            <button onclick="find()">Найти</button>
+        </div>
+    </body>
+</html>

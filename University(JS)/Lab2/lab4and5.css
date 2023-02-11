@@ -1,0 +1,92 @@
+.outer {
+    width: 5cm;
+    height: 3cm;
+    border-style: solid;
+    text-align: center;
+    margin-top: 0.1cm;
+}
+.inner {
+    margin-top: 0.05cm;
+    width:3cm;
+    height: 1cm;
+    border-style: solid;
+    margin-left: 1cm;
+}
+
+h1 {
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: Georgia, serif;
+    padding-left: 0.4cm;
+}
+.select{
+    text-align: center;
+}
+select{
+    width: 300px;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   padding-left: 10px; 
+   text-align: left;
+}
+.labs{
+    visibility: hidden;
+}
+
+button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  
+}
+
+button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.input{
+    border: none;
+    margin-top: 0.3cm;
+    font-size: medium;
+    padding-left: 0.5cm;
+    width: 15cm;
+    height: 0.5cm;
+    background: white;
+    border-radius: 12px;
+}
+
+pre{
+    padding-top: 0.2cm;
+    margin-top: 0.3cm;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 0.5cm;
+    width: 20cm;
+    height: 1cm;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
