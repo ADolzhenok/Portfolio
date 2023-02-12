@@ -1,7 +1,3 @@
-// function showText(){
-//     console.log('here')
-// }
-
 const showText = function(part){
     const allBox = {
         ear: document.getElementsByClassName("earBox")[0],

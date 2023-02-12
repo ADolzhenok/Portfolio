@@ -664,46 +664,4 @@ button {
 
 }
 
-/* .arrow {
-    border: 1px solid red;
-    position: relative;
-    width: 100px;
-}
-
-.arrow .curve {
-	border: 2px solid #BE5F4B; */
-    /* C: border-color: [top | right | bottom | left] */
-	/* border-color: transparent transparent transparent #BE5F4B;
-	height: 360px;
-	width: 1200px; */
-    /* C: border-radius: [top-left corner | top-right corner | bottom-right corner | bottom-left corner ] */
-	/* border-radius: 5cm 0 0 4cm;
-}
-
-.arrow .point {
-	position: absolute;
-	left: 40px;
-	top: 315px;
-    color: black;
-    border: 2px solid black;
-}
-
-.arrow .point:before, .arrow .point:after {
-	border: 1px solid #BE5F4B;
-	height: 25px;
-	content: "";
-	position: absolute;
-}
-
-.arrow .point:before {
-	top: -14px;
-	left: -11px;
-	transform:rotate(-74deg);
-}
-
-.arrow .point:after {
-  top: -22px;
-	left: 5px;
-	transform:rotate(12deg);
-} */
 
