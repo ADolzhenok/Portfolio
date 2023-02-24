@@ -1,3 +1,10 @@
+
+/**
+ * Rendering Arrows to the Body Parts
+ * 
+ * @param {string} part Name of the part of the Body
+ */
+
 const showText = function (part) {
   const allBox = {
     ear: document.getElementsByClassName("earBox")[0],
